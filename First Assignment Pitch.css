@@ -44,10 +44,7 @@ table th{
 
 
 .bg {
-  /* The image used */
-  background-image: url("Pitch7.PNG");
-
-  /* Full height */
+   background-image: url("Pitch7.PNG");
   height: 100%;
 
   /* Center and scale the image nicely */
@@ -55,7 +52,6 @@ table th{
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*another option for background: add to body this: background="Pitch7.PNG"
 .column {
   float: left;
   width: 30%;
@@ -63,19 +59,18 @@ table th{
 }
 
 	
-/* Clear floats after image containers */
+
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
-  /* Add a black background color to the top navigation */
+
 .nav {
   background-color: black;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #630B29;
@@ -85,13 +80,12 @@ table th{
   font-size: 19px;
 }
 
-/* Change the color of links on hover */
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #B32354;
   color: #630B29;
