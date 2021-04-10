@@ -1,0 +1,125 @@
+body, html {
+  height: 100%;
+}
+
+body {
+ text-align: center;
+
+ color: darkgreen;
+ font-family:Ariel;
+ font-size:130%;
+ 
+ 
+ 
+}
+
+.green {
+	color: green;
+	font-weight: bold;
+	font-size:120%;
+		}
+
+.TXT {
+font-size:80%;
+ text-align: left;
+}
+.TXT2 {
+	color:#E05F3A     ;
+font-size:130%;
+ font-weight: bold;
+}
+
+
+.contact {
+font-size:10%;
+ text-align: center;
+ color: #3EA5C2;
+ line-height: 1.3;
+}
+
+
+table th{
+    font-size:25px;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("Pitch7.PNG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*another option for background: add to body this: background="Pitch7.PNG"
+.column {
+  float: left;
+  width: 30%;
+  padding: 4px;
+}
+
+	
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  /* Add a black background color to the top navigation */
+.nav {
+  background-color: #ddd;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #630B29;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+   width:10%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: 	#8B0000;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: 	#8B0000;
+  color: white;
+}
+
+.botnav a {
+  float: center;
+  color: #630B29;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  width:10%;
+}
+
+
+/* Change the color of links on hover */
+.botnav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.botnav a.active {
+  background-color: darkgrey;
+  color: white;
+
+
